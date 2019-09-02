@@ -13,8 +13,16 @@
       <h1>Aprendiendo PHP</h1>
         <div class="contenido">
           <?php
-            echo "Hola Mundo";
+            $titulo = "Aprendiendo PHP";
           ?>
+          <?php // Comentario una linea  
+                /*
+                * Comentarios
+                * Muchas 
+                * Lineas
+                */
+          ?>
+          <p><?php echo $titulo; ?></p>
         </div>
     </div>
 

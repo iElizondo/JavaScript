@@ -13,7 +13,14 @@
       <h1>Aprendiendo PHP</h1>
         <div class="contenido">
           <?php
-            echo "Hola Mundo";
+            //Versiones anteriores
+            $tecnologias = ['CSS', 'HTML', 'JS', 'jQuery'];
+            echo $tecnologias[0];
+
+            echo "<hr>";
+            //Nueva
+            $lenguajes = array('CSS', 'HTML', 'PHP', 'MySQL');
+            echo $lenguajes[3];
           ?>
         </div>
     </div>

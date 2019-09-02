@@ -8,13 +8,11 @@
     <link rel="stylesheet" href="css/estilos.css" media="screen" title="no title">
   </head>
   <body>
-
     <div class="contenedor">
       <h1>Aprendiendo PHP</h1>
         <div class="contenido">
-          <?php
-            echo "Hola Mundo";
-          ?>
+        <h2>Tienda en línea</h2>    
+        <a href="producto.php?id=20&nombre=curso">Ir a Producto</a>     
         </div>
     </div>
 

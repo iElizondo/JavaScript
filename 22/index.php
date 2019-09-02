@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <title>Aprendiendo PHP</title>
     <link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
 
@@ -12,9 +12,15 @@
     <div class="contenedor">
       <h1>Aprendiendo PHP</h1>
         <div class="contenido">
+          <h2>Agenda Telefonica</h2>
           <?php
-            echo "Hola Mundo";
+           function usuario($nombre='No Guardado', $telefono='0000-0000'){
+             return $contacto = $nombre." ".$telefono."<br/> <hr>";
+           }
+           echo usuario('Isabel Elizondo','1234-4321');
+           echo usuario();
           ?>
+
         </div>
     </div>
 

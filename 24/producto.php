@@ -8,14 +8,13 @@
     <link rel="stylesheet" href="css/estilos.css" media="screen" title="no title">
   </head>
   <body>
-
     <div class="contenedor">
       <h1>Aprendiendo PHP</h1>
         <div class="contenido">
-          <?php
-            echo "Hola Mundo";
-          ?>
-        </div>
+        <h2>Descripción Producto</h2>
+                  
+              <p>ID: <?php echo htmlspecialchars($_GET['id']); ?></p>
+              <p>Nombre: <?php echo htmlspecialchars($_GET['nombre']); ?>
     </div>
 
   </body>

@@ -13,7 +13,15 @@
       <h1>Aprendiendo PHP</h1>
         <div class="contenido">
           <?php
-            echo "Hola Mundo";
+            $nombre = 'Isabel';
+            $apellido = 'Elizondo';
+
+            echo $nombre. " ". $apellido;
+
+            $edad = 28;
+            echo "<hr>";
+
+            echo $nombre. " edad: ". $edad;
           ?>
         </div>
     </div>

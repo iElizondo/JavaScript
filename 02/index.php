@@ -13,7 +13,14 @@
       <h1>Aprendiendo PHP</h1>
         <div class="contenido">
           <?php
-            echo "Hola Mundo";
+          //No pueden enpesar con numero ni tener guines medios
+            $hola_mundo = "Hola Mundo";
+            $numero = 20;
+
+            echo $hola_mundo;
+
+            $saludo = "<h1>Hola</h1>";
+            echo $saludo;
           ?>
         </div>
     </div>
